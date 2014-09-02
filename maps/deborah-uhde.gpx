@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPSBabel - http://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <time>2014-08-31T14:51:47.255Z</time>
+    <bounds minlat="52.257830000" minlon="10.525430000" maxlat="52.266733000" maxlon="10.536348000"/>
+  </metadata>
+  <wpt lat="52.266733000" lon="10.536348000">
+    <ele>0.000000</ele>
+    <name>Deborah Uhde</name>
+    <cmt>Deborah Uhde</cmt>
+    <desc>Deborah Uhde</desc>
+  </wpt>
+  <wpt lat="52.257830000" lon="10.525430000">
+    <ele>0.000000</ele>
+    <name>Marlene Bart</name>
+    <cmt>Marlene Bart</cmt>
+    <desc>Marlene Bart</desc>
+  </wpt>
+  <wpt lat="52.258150000" lon="10.528738000">
+    <ele>0.000000</ele>
+    <name>Treffpunkt für die Führung</name>
+    <cmt>Bushaltestellt am John F. Kennedy Platz.</cmt>
+    <desc>Bushaltestellt am John F. Kennedy Platz.</desc>
+  </wpt>
+</gpx>

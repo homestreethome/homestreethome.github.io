@@ -1,18 +1,167 @@
-<!doctype html><!--[if lt IE 9]><html manifest="cache.manifest" class="no-js lt-ie9" lang="en" ng-app="lennart.Audiowalk"><![endif]--><!--[if gt IE 8]><!--><html manifest="cache.manifest" class="no-js" lang="en" ng-app="lennart.Audiowalk"><!--<![endif]--><head><meta name="apple-mobile-web-app-capable" content="yes"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>HOME Street Home</title><meta name="description" content="In &quot;HOME Street Home&quot; begibt sich der oder die Zuschauer/in in einem Audiowalk auf die Spuren einer Ausstellung in 14 privaten R&#xE4;umlichkeiten in Braunschweig."><!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/2.2.0/es5-shim.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]--><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="HOME Street Home Audiowalk"><meta property="og:title" content="HOME Street Home Audiowalk"><meta property="og:description" content="In &quot;HOME Street Home&quot; begibt sich der oder die Zuschauer/in in einem Audiowalk auf die Spuren einer Ausstellung in 14 privaten R&#xE4;umlichkeiten in Braunschweig."><meta property="og:image" content="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png"><link rel="author" href="https://github.com/a0n"><link rel="author" href="https://github.com/lennart"><link rel="icon" href="http://angularjs.org/favicon.ico" type="image/x-icon"><link rel="shortcut icon" href="http://angularjs.org/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="styles/components.min.css"><link rel="stylesheet" href="styles/main.min.css"></head><body ontouchstart="" ng-controller="MainCtrl"><div ng-view=""></div><script src="scripts/components.min.js"></script><script src="scripts/app.min.js"></script><script>// (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!doctype html>
+<!--[if lt IE 9]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Home Street Home</title>
+  <meta name="description" content="In &quot;HOME STREET HOME&quot; begibt sich der oder die Zuschauer/in in einem Audiowalk auf die Spuren einer Ausstellung.">
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/2.2.0/es5-shim.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+  <![endif]-->
+  <!-- Sets initial viewport load and disables zooming  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Set a shorter title for iOS6 devices when saved to home screen -->
+  <meta name="apple-mobile-web-app-title" content="Brave New Work Audiowalk">
+  <!-- Properties for Google+ snippets -->
+  <meta property="og:title" content="Brave New Work Audiowalk">
+  <meta property="og:description" content="In &quot;HOME STREET HOME&quot; begibt sich der oder die Zuschauer/in in einem Audiowalk auf die Spuren einer Ausstellung.">
+  <meta property="og:image" content="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png">
+  <!-- Author of this application -->
+  <link rel="author" href="https://github.com/lennart">
+  <link rel="icon" href="http://angularjs.org/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="http://angularjs.org/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/home_components.min.css"/>
+  <link rel="stylesheet" href="styles/home_main.min.css"/>
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&appId=443898602352849&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <div class="container-fluid">
+    <div class="row home-container one-page">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="logo-text">
+              <h1>HOME<br>STREET<br>HOME</h1>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="date-location">
+              30. Oktober 2014<br>
+              11:00 - 20:00 Uhr<br>
+              in Braunschweig
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p>
+            <!-- Kunst zeigen und das mit den eben gegebenen Möglichkeiten.
+            Unabhängig von Hochschule und Professoren, kuratorischer Mithilfe und institutionellem Ausstellungsort, proben Studenten der HBK den Ernstfall. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row one-page">
+    <div class="col-xs-12">
+      <div class="row row-space">
+        <div class="col-sm-6">
+          <h3>Termine</h3>
+          <dl class="dl-horizontal">
+            <dt>30. Oktober</dt>
+            <dd>Home-Street-Home</dd>
+            <dt>11:00 Uhr</dt>
+            <dd>Er&#xF6;ffnung</dd>
+            <dt>17:00 Uhr</dt>
+            <dd>F&#xFC;hrung</dd>
+            <dt>20:00 Uhr</dt>
+            <dd>Ende</dd>
+            <dt>20:30 Uhr</dt>
+            <dd>Feier</dd>
+          </dl>
+        </div>
+        <div class="col-sm-6">
+          <h3>Beschreibung</h3>
+          <p>Kunst zeigen und das mit den eben gegebenen M&#xF6;glichkeiten.
+          Unabh&#xE4;ngig von Hochschule und Professoren, kuratorischer Mithilfe und institutionellem Ausstellungsort, proben Studenten der HBK den Ernstfall.
+          Im Rahmen eines Seminars der Dorothea-Erxleben-Stipendiatin Alice Musiol entstand die Idee der selbstorganisierten Gruppenausstellung.
+          An 11 verschiedenen Orten in Braunschweig wird am 30. Oktober f&#xFC;r einen Tag Privates &#xF6;ffentlich. Dabei wird selbst die eigene WG kurzerhand zum Ausstellungsraum umfunktioniert.</p>
+          
+        </div>
+      </div>
+      <div class="row row-space">
+        <div class="col-xs-12">
+          <h3>Orte</h3>
+          <div class="row places">
+            <div class="place place-small">
+              <img src="images/1.jpg">
+              <p><small><b>Kunstverein Braunschweig<br>
+              Lessingplatz 12</b><br>
+              Marlene Bart
+              </small>
+              </p>
+            </div>
+            <div class="place place-small">
+              <img src="images/2.jpg">
+              <p><small><b>Sophienstra&#xDF;e 27b</b><br>Phoebe Pia Hartmann</small></p>
+            </div>
+            <div class="place place-small">
+              <img src="images/3.jpg">
+              <p><small><b>Kunstverein Braunschweig<br> Lessingplatz 12 &amp;<br>J.-Selenka-Platz 1</b><br>Timo Hoheisel</small></p>
+            </div>
+            <div class="place place-small">
+              <img src="images/4.jpg">
+              <p><small><b>Altstadtring 8</b><br>Jonny Isaak &amp;<br> Nina Nyusha Rezagholina</small></p>
+            </div>
+            <div class="place place-small">
+              <img src="images/5.jpg">
+              <p><small><b>Madamenweg 163</b><br>Aaron Israel &amp;<br> Manfred Werder / Lea Danzeisen</small></p>
+            </div>
+            <div class="place place-small">
+              <img src="images/6.jpg">
+              <p><small><b>Jahnstra&#xDF;e 11</b><br>Sven-Julien Kanclerski &amp;<br> Carolin Steinkamp</small></p>
+            </div>
+            <div class="place place-small">
+              <img src="images/7.jpg">
+              <p><small><b>Kreuzstra&#xDF;e 24b</b><br>Swetlana K&#xF6;nig</small></p>
+            </div>
+            <div class="place place-small">
+              <img src="images/8.jpg">
+              <p><small><b>Artbox, Blumenstra&#xDF;e 1</b><br>Alissa Lillepea</small></p>
+            </div>
+            <div class="place place-small">
+              <img src="images/9.jpg">
+              <p><small><b>Juliusstra&#xDF;e 31d</b><br>Nils Peter</small></p>
+            </div>
+            <div class="place place-small">
+              <img src="images/10.jpg">
+              <p><small><b>Gabelsbergerstra&#xDF;e 22</b><br>Sarah Schoberth</small></p>
+            </div>
+            <div class="place place-small">
+              <img src="images/11.jpg">
+              <p><small><b>Jasperallee 80 &amp; Jahnstra&#xDF;e 24</b><br>Deborah Uhde</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-space">
+        <div class="col-xs-12">
+          <h3>Karte</h3>
+          <div id="map"></div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
 
-    // var ua = "XX-XXXXXXXX-X";
-
-    // switch(location.host) {
-    //   case "preview.bravenewwork.info":
-    //     ua = 'UA-53007505-2';
-    //     break;
-    //   case "bravenewwork.info":
-    //     ua = 'UA-53007505-1'
-    // } 
-
-    // ga('create', ua, 'auto');
-    // ga('send', 'pageview');</script><script src="scripts/views.tpl.min.js"></script></body></html>
+<script src="scripts/home_components.min.js"></script>
+<script src="scripts/home_app.min.js"></script>
+</body>
+</html>
