@@ -1,79 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="GPSBabel - http://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/1">
   <metadata>
-    <time>2014-08-31T14:51:28.893Z</time>
-    <bounds minlat="52.249380000" minlon="10.497950000" maxlat="52.261811000" maxlon="10.509175000"/>
+    <time>2014-09-09T18:24:12.982Z</time>
+    <bounds minlat="52.249380000" minlon="10.497950000" maxlat="52.266733000" maxlon="10.536348000"/>
   </metadata>
   <wpt lat="52.249549000" lon="10.503374000">
     <ele>0.000000</ele>
-    <name>Sarah Schoberth</name>
+    <name>gabelsbergerstr-22</name>
     <cmt>Sarah Schoberth</cmt>
-    <desc>Sarah Schoberth</desc>
+    <desc>Gabelsbergerstr 22</desc>
+    <sym>dot</sym>
+    <link>google.de</link>
   </wpt>
   <wpt lat="52.254686000" lon="10.509175000">
     <ele>0.000000</ele>
-    <name>Nils Peter</name>
+    <name>juliusstr-31d</name>
     <cmt>Nils Peter</cmt>
-    <desc>Nils Peter</desc>
+    <desc>Juliusstraße 31d</desc>
+    <sym>dot</sym>
   </wpt>
   <wpt lat="52.249380000" lon="10.502380000">
     <ele>0.000000</ele>
-    <name>Sven-Julien Kanclerski &amp; Carolin Steinkamp</name>
+    <name>jahnstr-11</name>
     <cmt>Sven-Julien Kanclerski &amp; Carolin Steinkamp</cmt>
-    <desc>Sven-Julien Kanclerski &amp; Carolin Steinkamp</desc>
+    <desc>Jahnstr 11</desc>
+    <sym>dot</sym>
   </wpt>
   <wpt lat="52.261811000" lon="10.497950000">
     <ele>0.000000</ele>
-    <name>Swetlana König</name>
+    <name>kreuzstr-24b</name>
     <cmt>Swetlana König</cmt>
-    <desc>Swetlana König</desc>
+    <desc>Kreuzstr 24b</desc>
+    <sym>dot</sym>
   </wpt>
   <wpt lat="52.261228000" lon="10.506162000">
     <ele>0.000000</ele>
-    <name>Aaron Israel</name>
+    <name>madamenweg-163</name>
     <cmt>Aaron Israel</cmt>
-    <desc>Aaron Israel</desc>
+    <desc>Madamenweg 163</desc>
+    <sym>dot</sym>
   </wpt>
   <wpt lat="52.259280000" lon="10.502950000">
     <ele>0.000000</ele>
-    <name>Jonny Isaak &amp; Nina Nyusha Rezagholina</name>
+    <name>altstadtring-8</name>
     <cmt>Jonny Isaak &amp; Nina Nyusha Rezagholina</cmt>
-    <desc>Jonny Isaak &amp; Nina Nyusha Rezagholina</desc>
+    <desc>Altstadtring 8</desc>
+    <sym>dot</sym>
   </wpt>
   <wpt lat="52.258128000" lon="10.506222000">
     <ele>0.000000</ele>
-    <name>Phoebe Pia Hartmann</name>
+    <name>sophienstr-27b</name>
     <cmt>Phoebe Pia Hartmann</cmt>
-    <desc>Phoebe Pia Hartmann</desc>
+    <desc>Sophienstr 27b</desc>
+    <sym>dot</sym>
   </wpt>
   <wpt lat="52.253440000" lon="10.507820000">
     <ele>0.000000</ele>
-    <name>Alissa Lillepea</name>
+    <name>artbox-blumenstr-1</name>
     <cmt>Alissa Lillepea</cmt>
-    <desc>Alissa Lillepea</desc>
+    <desc>Artbox, Blumenstr 1</desc>
+    <sym>dot</sym>
   </wpt>
   <wpt lat="52.257620000" lon="10.502280000">
     <ele>0.000000</ele>
-    <name>Timo Hoheisel</name>
+    <name>johannes-selenka-platz-1</name>
     <cmt>Timo Hoheisel</cmt>
-    <desc>Timo Hoheisel</desc>
+    <desc>Johannes-Selenka-Platz 1</desc>
+    <sym>dot</sym>
   </wpt>
-    <wpt lat="52.266733000" lon="10.536348000">
+  <wpt lat="52.266733000" lon="10.536348000">
     <ele>0.000000</ele>
-    <name>Deborah Uhde</name>
+    <name>jasperallee-80</name>
     <cmt>Deborah Uhde</cmt>
-    <desc>Deborah Uhde</desc>
+    <desc>Jasperallee 80</desc>
+    <sym>dot</sym>
   </wpt>
   <wpt lat="52.257830000" lon="10.525430000">
     <ele>0.000000</ele>
-    <name>Marlene Bart</name>
+    <name>kunstverein-braunschweig-lessingplatz-12</name>
     <cmt>Marlene Bart</cmt>
-    <desc>Marlene Bart</desc>
+    <desc>Kunstverein, Lessingplatz 12</desc>
+    <sym>dot</sym>
   </wpt>
   <wpt lat="52.258150000" lon="10.528738000">
     <ele>0.000000</ele>
-    <name>Treffpunkt für die Führung</name>
+    <name>treffpunkt-für-die-führung</name>
     <cmt>Bushaltestellt am John F. Kennedy Platz.</cmt>
     <desc>Bushaltestellt am John F. Kennedy Platz.</desc>
+    <sym>dot</sym>
   </wpt>
 </gpx>

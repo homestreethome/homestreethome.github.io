@@ -38,178 +38,145 @@
   js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&appId=443898602352849&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
+
   <div class="container-fluid">
-    <div class="row home-container one-page">
-      <div class="col-xs-12">
-        <div class="row">
-          <div class="col-sm-8">
-            <div class="logo-text">
-              <h1>HOME<br>STREET<br>HOME</h1>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="date-location">
-              30. Oktober 2014<br>
-              11:00 - 20:00 Uhr<br>
-              in Braunschweig
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            
-          </div>
+    <div class="row home-container">
+      <div class="col-sm-12">
+        <h1 class="logo-text"><span class="space">HOME</span><br>STREET<br><span class="space">HOME</span></h1>
+      
+        <p class="date-location">
+          30. Oktober 2014<br>
+          11:00 - 20:00 Uhr<br>
+          in Braunschweig
+        </p>
+      </div>
+    </div>
+
+    <div class="row desc-container">
+      <div class="col-sm-6 col-xs-12">
+        <h2>Termine</h2>
+        <dl class="dl-horizontal">
+          <dt class="heading">30. Oktober</dt>
+          <dd class="heading">Home&#x2013;Street&#x2013;Home</dd>
+        </dl>
+        <dl class="dl-horizontal time">
+          <dt>11:00 Uhr</dt>
+          <dd>Er&#xF6;ffnung</dd>
+          <dt>17:00 Uhr</dt>
+          <dd>F&#xFC;hrung</dd>
+          <dt>20:00 Uhr</dt>
+          <dd>Ende</dd>
+          <dt>20:30 Uhr</dt>
+          <dd>Feier</dd>
+        </dl>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+        <h2>Beschreibung</h2>
+        <p>Kunst zeigen und das mit den eben gegebenen M&#xF6;glichkeiten.
+          Unabh&#xE4;ngig von Hochschule und Professoren, kuratorischer Mithilfe und institutionellem Ausstellungsort, proben Studenten der HBK den Ernstfall.
+          Im Rahmen eines Seminars der Dorothea-Erxleben-Stipendiatin Alice Musiol entstand die Idee der selbstorganisierten Gruppenausstellung.
+          An 11 verschiedenen Orten in Braunschweig wird am 30. Oktober f&#xFC;r einen Tag Privates &#xF6;ffentlich. Dabei wird selbst die eigene WG kurzerhand zum Ausstellungsraum umfunktioniert.
+        </p>
+        <div class="fb-like-wrapper">
+            <div class="fb-like hidden-xs" data-href="https://facebook.com/homehomestreet" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" data-colorscheme="dark"></div>
+            <div class="fb-like visible-xs-block" data-href="https://facebook.com/homehomestreet" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="row one-page">
-    <div class="col-xs-12">
-      <div class="row row-space">
-        <div class="col-sm-6">
-          <dl class="dl-horizontal">
-            <dt>30. Oktober</dt>
-            <dd>Home-Street-Home</dd>
-            <dt>11:00 Uhr</dt>
-            <dd>Er&#xF6;ffnung</dd>
-            <dt>17:00 Uhr</dt>
-            <dd>F&#xFC;hrung</dd>
-            <dt>20:00 Uhr</dt>
-            <dd>Ende</dd>
-            <dt>20:30 Uhr</dt>
-            <dd>Feier</dd>
-          </dl>
-          
-        </div>
-        <div class="col-sm-6">
-          <p>Kunst zeigen und das mit den eben gegebenen M&#xF6;glichkeiten.
-          Unabh&#xE4;ngig von Hochschule und Professoren, kuratorischer Mithilfe und institutionellem Ausstellungsort, proben Studenten der HBK den Ernstfall.
-          Im Rahmen eines Seminars der Dorothea-Erxleben-Stipendiatin Alice Musiol entstand die Idee der selbstorganisierten Gruppenausstellung.
-          An 11 verschiedenen Orten in Braunschweig wird am 30. Oktober f&#xFC;r einen Tag Privates &#xF6;ffentlich. Dabei wird selbst die eigene WG kurzerhand zum Ausstellungsraum umfunktioniert.</p>
 
-        </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Karte</h2>
+        <div id="map"></div>
       </div>
-      <div class="row row-space">
-      
-        <div class="col-xs-12 col-sm-12  col-md-6" style="display: none;">
-          <h3>Orte <small><span class="label label-danger">Under Construction!</span></small></h3>
-          <div class="row places">
-            <div class="place place-small">
-              <img src="images/1.jpg">
-              <p><small><b>Kunstverein Braunschweig<br>
-              Lessingplatz 12</b><br>
-              Marlene Bart
-              </small>
-              </p>
-            </div>
-            <div class="place place-small">
-              <img src="images/2.jpg">
-              <p><small><b>Sophienstra&#xDF;e 27b</b><br>Phoebe Pia Hartmann</small></p>
-            </div>
-            <div class="place place-small">
-              <img src="images/3.jpg">
-              <p><small><b>Kunstverein Braunschweig<br> Lessingplatz 12 &amp;<br>J.-Selenka-Platz 1</b><br>Timo Hoheisel</small></p>
-            </div>
-            <div class="place place-small">
-              <img src="images/4.jpg">
-              <p><small><b>Altstadtring 8</b><br>Jonny Isaak &amp;<br> Nina Nyusha Rezagholina</small></p>
-            </div>
-            <div class="place place-small">
-              <img src="images/5.jpg">
-              <p><small><b>Madamenweg 163</b><br>Aaron Israel &amp;<br> Manfred Werder / Lea Danzeisen</small></p>
-            </div>
-            <div class="place place-small">
-              <img src="images/6.jpg">
-              <p><small><b>Jahnstra&#xDF;e 11</b><br>Sven-Julien Kanclerski &amp;<br> Carolin Steinkamp</small></p>
-            </div>
-            <div class="place place-small">
-              <img src="images/7.jpg">
-              <p><small><b>Kreuzstra&#xDF;e 24b</b><br>Swetlana K&#xF6;nig</small></p>
-            </div>
-            <div class="place place-small">
-              <img src="images/8.jpg">
-              <p><small><b>ARTBOX, Blumenstra&#xDF;e 1</b><br>Alissa Lillepea</small></p>
-            </div>
-            <div class="place place-small">
-              <img src="images/9.jpg">
-              <p><small><b>Juliusstra&#xDF;e 31d</b><br>Nils Peter</small></p>
-            </div>
-            <div class="place place-small">
-              <img src="images/10.jpg">
-              <p><small><b>Gabelsbergerstra&#xDF;e 22</b><br>Sarah Schoberth</small></p>
-            </div>
-            <div class="place place-small">
-              <img src="images/11.jpg">
-              <p><small><b>Jasperallee 80 &amp; Jahnstra&#xDF;e 24</b><br>Deborah Uhde</small></p>
-            </div>
+    </div>
+
+    <div class="row participants">
+      <div class="col-md-12">
+        <h2>Credits</h2>
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>K&#xFC;nstler</h3>
+            <dl>
+              <dt>Marlene Bart</dt>
+              <dd>Kunstverein Braunschweig, Lessingplatz 12</dd>
+              <dt>Phoebe Pia Hartmann</dt>
+              <dd>Sophienstr 27b</dd>
+              <dt>Timo Hoheisel</dt>
+              <dd>Johannes-Selenka-Platz 1</dd>
+              <dt>Jonny Isaak</dt>
+              <dd>Altstadtring 8</dd>
+              <dt>Aaron Israel</dt>
+              <dd>Madamenweg 163</dd>
+              <dt>Lea Danzeisen</dt>
+              <dd>Madamenweg 163</dd>
+              <dt>Sven-Julien Kanclerski</dt>
+              <dd>Jahnstr 11</dd>
+              <dt>Swetlana K&#xF6;nig</dt>
+              <dd>Kreuzstr 24b</dd>
+              <dt>Alissa Lillepea</dt>
+              <dd>Artbox, Blumenstr 1</dd>
+              <dt>Nils Peter</dt>
+              <dd>Juliusstr 31d</dd>
+              <dt>Nina Nyusha Rezagholinia</dt>
+              <dd>Altstadtring 8</dd>
+              <dt>Sarah Schoberth</dt>
+              <dd>Gabelsbergerstr 22</dd>
+              <dt>Carolin Steinkamp</dt>
+              <dd>Jahnstr 11</dd>
+              <dt>Deborah Uhde</dt>
+              <dd>Jasperallee 80</dd>
+            </dl>
           </div>
-        </div>
+          <div class="col-sm-6">
+            <h3>Kunstwissenschaftler</h3>
+            <dt>Junia Thiede</dt>
+            <dd>Texte</dd>
 
-        <div class="col-sm-12">
-          <button type="button" class="btn btn-primary btn-xs pull-right" disabled="disabled">Audiowalk starten!</button>
-          <h3>Karte</h3>
-          <div id="map"></div>
+            <h3>Unterst&#xFC;tzer</h3>
+            <dt>Ina Hengstler</dt>
+            <dd></dd>
+            <dt>Alice Musiol</dt>
+            <dd></dd>
 
-        </div>
-        
-      </div>
-      
-      <div class="row row-space">
-        <div class="col-xs-12" style="display: none;">
-          <h3>Teilnehmerliste <small><span class="label label-danger">Under Construction!</span></small></h3>
-          <dl>
-            <dt>Marlene Bart</dt>
-            <dd></dd>
-            <dt>Phoebe Pia Hartmann</dt>
-            <dd></dd>
-            <dt>Timo Hoheisel</dt>
-            <dd></dd>
-            <dt>Jonny Isaak</dt>
+
+            <h3>Webdesign</h3>
+            <dt><a href="https://github.com/lennart?tab=repositories">Lennart Melzer</a></dt>
             <dd></dd>
             <dt>Aaron Israel</dt>
             <dd></dd>
-            <dt>Lea Danzeisen</dt>
-            <dd></dd>
-            <dt>Sven-Julien Kanclerski</dt>
-            <dd></dd>
-            <dt>Swetlana K&#xF6;nig</dt>
-            <dd></dd>
-            <dt>Alissa Lillepea</dt>
-            <dd></dd>
-            <dt>Nils Peter</dt>
-            <dd></dd>
-            <dt>Nina Nyusha Rezagholinia</dt>
-            <dd></dd>
-            <dt>Sarah Schoberth</dt>
-            <dd></dd>
-            <dt>Carolin Steinkamp</dt>
-            <dd></dd>
-            <dt>Deborah Uhde</dt>
-            <dd></dd>
-          </dl>
-          
-        </div>
-        
-      </div>
 
-      <div class="row row-space">
-        <div class="col-xs-12">
-          
-          <div class="pull-right fb-like" data-href="http://facebook.com/homehomestreet" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" data-colorscheme="dark"></div>
+            <h3>Sponsoren</h3>
+            <a target="_blank" href="http://www.hbk-bs.de/aktuell/veranstaltungen/details/19367/"><img class="hbk-logo" src="images/hbk_logo.png"></a>
+          </div>
 
         </div>
-        
+
+
       </div>
 
-
-
-
-      
     </div>
-  </div>
-  
 
-<script src="scripts/home_components.min.js"></script>
-<script src="scripts/home_app.min.js"></script>
+    <div class="row footer">
+      <div class="col-sm-12">
+        <h2>Impressum</h2>
+        <p><small>
+          Angaben gem&#xE4;&#xDF; &#xA7; 5 TMG:
+          <br><br>
+          Alice Musiol<br>
+          Hochschule f&#xFC;r Bildende K&#xFC;nste Braunschweig (HBK)<br>
+          Johannes-Selenka-Platz 1<br>
+          38118 Braunschweig<br>
+          E-Mail: a.musiol@hbk-bs.de
+          </small>
+        </p>
+      </div>
+    </div>
+
+    
+  </div>
+
+  <script src="scripts/home_components.min.js"></script>
+  <script src="scripts/home_app.min.js"></script>
 </body>
 </html>
