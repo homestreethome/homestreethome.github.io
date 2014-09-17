@@ -1,6 +1,6 @@
 /**
  * audiowalk
- * @version v0.1.0 - 2014-09-14
+ * @version v0.1.0 - 2014-09-17
  * @link https://github.com/lennart/audiowalk
  * @author Lennart Melzer ()
  * @license MIT License, http://www.opensource.org/licenses/MIT
