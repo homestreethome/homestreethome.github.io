@@ -4,13 +4,12 @@
     <time>2014-09-09T18:24:12.982Z</time>
     <bounds minlat="52.249380000" minlon="10.497950000" maxlat="52.266733000" maxlon="10.536348000"/>
   </metadata>
-  <wpt lat="52.249549000" lon="10.503374000">
+  <wpt lat="52.261037" lon="10.499612">
     <ele>0.000000</ele>
     <name>gabelsbergerstr-22</name>
     <cmt>Sarah Schoberth</cmt>
     <desc>Gabelsbergerstr 22</desc>
     <sym>dot</sym>
-    <link>google.de</link>
   </wpt>
   <wpt lat="52.254686000" lon="10.509175000">
     <ele>0.000000</ele>
@@ -73,6 +72,13 @@
     <name>jasperallee-80</name>
     <cmt>Deborah Uhde</cmt>
     <desc>Jasperallee 80</desc>
+    <sym>dot</sym>
+  </wpt>
+  <wpt lat="52.24945" lon="10.503150000000005">
+    <ele>0.000000</ele>
+    <name>jahnstrasse-8a</name>
+    <cmt>Deborah Uhde</cmt>
+    <desc>Jahnstraße 8a</desc>
     <sym>dot</sym>
   </wpt>
   <wpt lat="52.257830000" lon="10.525430000">
