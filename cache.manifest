@@ -53,6 +53,21 @@ images/places/madamenweg_163.jpg
 images/places/sophienstra%C3%9Fe_27b.jpg
 images/places/sophienstra%C3%9Fe_27b_small.jpg
 maps/home/tiles/metadata.json
+maps/home/tiles/13/4333/2695.png
+maps/home/tiles/13/4333/2696.png
+maps/home/tiles/13/4333/2697.png
+maps/home/tiles/13/4334/2695.png
+maps/home/tiles/13/4334/2696.png
+maps/home/tiles/13/4334/2697.png
+maps/home/tiles/13/4335/2695.png
+maps/home/tiles/13/4335/2696.png
+maps/home/tiles/13/4335/2697.png
+maps/home/tiles/13/4336/2695.png
+maps/home/tiles/13/4336/2696.png
+maps/home/tiles/13/4336/2697.png
+maps/home/tiles/13/4337/2695.png
+maps/home/tiles/13/4337/2696.png
+maps/home/tiles/13/4337/2697.png
 maps/home/tiles/14/8666/5390.png
 maps/home/tiles/14/8666/5391.png
 maps/home/tiles/14/8666/5392.png
@@ -242,21 +257,6 @@ maps/home/tiles/15/17348/10786.png
 maps/home/tiles/15/17348/10787.png
 maps/home/tiles/15/17348/10788.png
 maps/home/tiles/15/17348/10789.png
-maps/home/tiles/13/4333/2695.png
-maps/home/tiles/13/4333/2696.png
-maps/home/tiles/13/4333/2697.png
-maps/home/tiles/13/4334/2695.png
-maps/home/tiles/13/4334/2696.png
-maps/home/tiles/13/4334/2697.png
-maps/home/tiles/13/4335/2695.png
-maps/home/tiles/13/4335/2696.png
-maps/home/tiles/13/4335/2697.png
-maps/home/tiles/13/4336/2695.png
-maps/home/tiles/13/4336/2696.png
-maps/home/tiles/13/4336/2697.png
-maps/home/tiles/13/4337/2695.png
-maps/home/tiles/13/4337/2696.png
-maps/home/tiles/13/4337/2697.png
 maps/home/tiles/16/34667/21563.png
 maps/home/tiles/16/34667/21564.png
 maps/home/tiles/16/34667/21565.png
@@ -2712,4 +2712,4 @@ NETWORK:
 http://*
 https://*
 
-# hash: d7a070d0011eb4c9fc1e2a90c2cd6b55ea988cc5c26efe861f5d7ab070ea2a5e
+# hash: e30a9791f9bad127bde4bc5aff3fbcfc01e01e99b9cde7b2f92ccc54d347154c
