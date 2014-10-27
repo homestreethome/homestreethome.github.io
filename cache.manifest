@@ -28,10 +28,6 @@ styles/components.min.css
 styles/home_components.min.css
 styles/home_main.min.css
 styles/main.min.css
-fonts/bootstrap/glyphicons-halflings-regular.eot
-fonts/bootstrap/glyphicons-halflings-regular.svg
-fonts/bootstrap/glyphicons-halflings-regular.ttf
-fonts/bootstrap/glyphicons-halflings-regular.woff
 images/places/altstadtring_8.jpg
 images/places/background_red.jpg
 images/places/blumenstrasse_1.jpg
@@ -47,6 +43,10 @@ images/places/lessingplatz_1_small.jpg
 images/places/madamenweg_163.jpg
 images/places/sophienstra%C3%9Fe_27b.jpg
 images/places/sophienstra%C3%9Fe_27b_small.jpg
+fonts/bootstrap/glyphicons-halflings-regular.eot
+fonts/bootstrap/glyphicons-halflings-regular.svg
+fonts/bootstrap/glyphicons-halflings-regular.ttf
+fonts/bootstrap/glyphicons-halflings-regular.woff
 maps/home/tiles/metadata.json
 maps/home/tiles/13/4333/2695.png
 maps/home/tiles/13/4333/2696.png
@@ -2707,4 +2707,4 @@ NETWORK:
 http://*
 https://*
 
-# hash: 57a9a5c49b8605dc33677e42e68e47b66c7753deb8691941f24687e96a9a898b
+# hash: c897d3eb42f5a80a5e254626b1209625101a7238b845787a4f3c8e7f5e753bc9
