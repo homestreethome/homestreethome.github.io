@@ -88,11 +88,4 @@
     <desc>Kunstverein, Lessingplatz 12</desc>
     <sym>dot</sym>
   </wpt>
-  <wpt lat="52.258150000" lon="10.528738000">
-    <ele>0.000000</ele>
-    <name>treffpunkt-für-die-führung</name>
-    <cmt>Bushaltestellt am John F. Kennedy Platz.</cmt>
-    <desc>Bushaltestellt am John F. Kennedy Platz.</desc>
-    <sym>dot</sym>
-  </wpt>
 </gpx>
