@@ -39,7 +39,7 @@
     ga('send', 'pageview');
   </script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar-container">
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -62,6 +62,35 @@
       </div>
     </div>
 
+  </div>
+
+
+    <div class="navbar-container ">
+
+      <div class="navbar navbar-default navbar-inverse navbar-hsh">
+      <div class="navbar-header hidden-xs">
+        <a class="navbar-brand" href="#">HOME</a>
+      </div>
+        <ul class="navbar-nav nav">
+          <li>
+            <a href="#audiowalk">Audiowalk</a>
+          </li>
+          <li>
+            <a href="#comments">Kommentare</a>
+          </li>
+          <li>
+            <a href="#participants">Teilnehmer</a>
+          </li>
+          <li>
+            <a href="#press">Presse</a>
+          </li>
+        </ul>
+
+    </div>
+
+    </div>
+
+  <div class="container-fluid">
     <div class="row desc-container row-space">
       <div class="schedule col-sm-5 col-md-5 col-lg-6 col-xs-12">
         <ul class="list-unstyled">
@@ -93,9 +122,18 @@
       </div>
     </div>
 
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="toc-link" id="audiowalk">Audiowalk</h2>
+      </div>
+    </div>
+
     <div class="row row-space">
+
       <div class="col-xs-12 col-sm-5 col-md-5 col-lg-6">
-        <div class="row places">
+
+        <div class="row places" id="audio">
           <div class="place place-small">
             <a name="kunstverein-braunschweig-lessingplatz-12"></a>
             <span class="place-play glyphicon glyphicon-play">
@@ -234,7 +272,7 @@
     <div class="row comments row-space">
 
       <div class="col-sm-12">
-        <h3>Kommentare</h3>
+        <h2 id="comments" class="toc-link">Kommentare</h2>
         <div id="disqus_thread"></div>
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -256,6 +294,7 @@
 
     <div class="row participants row-space">
       <div class="col-sm-12">
+        <h2 id="participants" class="toc-link">Teilnehmer</h2>
         <div class="row">
           <div class="col-sm-6">
             <h3>K&#xFC;nstler</h3>
@@ -345,7 +384,7 @@
         <div class="row row-space">
           <div class="col-xs-12">
             <a name="presse"></a>
-            <h3>Presse</h3>
+            <h2 id="press" class="toc-link">Presse</h2>
             <p><a target="_blank" href="downloads/Presse_Text.pdf"><span class="glyphicon glyphicon-download-alt"></span> Pressetext</a></p>
             <p><a target="_blank" href="downloads/HomeStreetHome_Flyer_Web.pdf"><span class="glyphicon glyphicon-download-alt"></span> Flyer</a></p>
             <p><a target="_blank" href="downloads/HomeStreetHome_Plakat_Web.pdf"><span class="glyphicon glyphicon-download-alt"></span> Plakat Foto</a></p>
